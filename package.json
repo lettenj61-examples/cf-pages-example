@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build:elm": "npx elm make --debug --output dist/index.html src/Site.elm",
+    "build": "npm install && npm run build:elm"
+  },
+  "devDependencies": {
+    "elm": "^0.19.1-5"
+  }
+}
